@@ -1,3 +1,22 @@
+commit 2fc3c726dd09dbf9cfe0ad51a327d02ce392a16b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 29 11:04:49 2021 -0400
+
+    Load tirdad before LKRG so LKRG does not judge tirdad to be malicious.
+    
+    `/etc/modprobe.d/30-tirdad.conf`
+    
+    `softdep p_lkrg pre: tirdad`
+    
+    Imported from `lkrg` package since it does not belong there and since Debian
+    packaging for LKRG is now provided by upstream.
+
+commit c1580634bcb3c3c459d7c9ed2ca5e94ed2b6bffe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 12:40:36 2021 -0400
+
+    bumped changelog version
+
 commit b14ab267b8137f339caefe1850eff3e205060ed7
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 17 09:45:23 2021 -0400
