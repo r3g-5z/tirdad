@@ -1,3 +1,21 @@
+commit 1636e289beb9542f4bd21f28410860585337dca1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 09:23:59 2022 -0400
+
+    remove unicode
+
+commit 7741fd02852746f8d82084f55d2c587b3154206f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 09:17:44 2022 -0400
+
+    remove unicode
+
+commit c6bd0b646e7346d213a4e7f9adbc5a57ce890422
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:07:32 2022 -0400
+
+    bumped changelog version
+
 commit 3254c41eafb5b22abd647ffdf48f7f80e3b3483e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 14:46:41 2022 -0400
